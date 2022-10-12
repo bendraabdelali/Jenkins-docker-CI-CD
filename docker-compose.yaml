@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  portfolio:
+    image: abdosuper/portfolio:1.0
+    container_name: portfolio
+    ports:
+      - '8080:80'
+    volumes: 
+      - db:/usr/share/nginx/html
+volumes:
+  db:
+    driver: local
