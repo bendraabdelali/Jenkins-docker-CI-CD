@@ -1,5 +1,7 @@
-FROM nginx:1.23.1
+FROM nginx:1.23.2-alpine
+
 WORKDIR /usr/share/nginx/html
-COPY index.html .
+
+COPY ./app/* .
+
 EXPOSE 80
-# CMD ["nginx", "-g", "daemon off;"]

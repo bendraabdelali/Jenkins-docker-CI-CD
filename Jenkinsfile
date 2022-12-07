@@ -11,7 +11,6 @@ pipeline {
 
     stages { 
 
-
         stage('Building our image') { 
 
             steps { 
@@ -42,7 +41,8 @@ pipeline {
             }
 
         } 
-       stage('Run new version') {  
+       stage('Run new version') { 
+         
             steps {
                 sh "docker stop portfolio"
                 sh "docker rm  portfolio "
