@@ -4,9 +4,9 @@
 This project aims to create a complete CI/CD pipeline using Jenkins. It will include setting up a Jenkins server, configuring and automating builds, running automated tests, and deploying code to production. The pipeline will be designed to ensure high quality, secure, and efficient code delivery. Additionally, the pipeline should be able to handle any changes or updates to the codebase without manual intervention. The end goal of this project is to create an automated pipeline that can be used to reliably and securely deliver code to production.
 
 
-![image](./images/architecture.png)
-
-
+<p align="center">
+  <img src="./images/architecture.png" />
+</p>
 ##  Prerequisites
 
 In order to run this project, you will need to install
